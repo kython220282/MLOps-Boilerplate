@@ -362,7 +362,7 @@ Your support helps maintain and improve this framework for everyone. Thank you! 
 
 For questions and support:
 - Create an issue on [GitHub](https://github.com/kython220282/MLOps-Boilerplate/issues)
-- Email: support@example.com
+- Email: karan.rajsharma@yahoo.com
 - Repository: https://github.com/kython220282/MLOps-Boilerplate
 
 ---
