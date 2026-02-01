@@ -1,0 +1,29 @@
+data_source:
+  type: file
+  path: data/train.csv
+
+target_column: target
+
+model:
+  type: xgboost
+  model_type: classifier
+  n_estimators: 200
+  max_depth: 6
+  learning_rate: 0.1
+  random_state: 42
+
+data_processing:
+  missing_value_strategy: mean
+  scaling_method: standard
+  test_size: 0.2
+  random_state: 42
+
+cross_validation:
+  type: stratified
+  n_splits: 5
+  scoring: f1_weighted
+
+task_type: classification
+output_path: models/xgboost_model.joblib
+run_cross_validation: true
+random_state: 42

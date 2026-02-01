@@ -1,0 +1,37 @@
+{
+  "data_source": {
+    "type": "database",
+    "connector_type": "postgresql",
+    "connection_config": {
+      "host": "localhost",
+      "port": 5432,
+      "database": "ml_database",
+      "user": "ml_user",
+      "password": "your_password"
+    },
+    "query": "SELECT * FROM training_data WHERE date >= '2024-01-01'"
+  },
+  "target_column": "price",
+  "model": {
+    "type": "random_forest",
+    "model_type": "regressor",
+    "n_estimators": 150,
+    "max_depth": 10,
+    "random_state": 42
+  },
+  "data_processing": {
+    "missing_value_strategy": "median",
+    "scaling_method": "minmax",
+    "test_size": 0.25,
+    "random_state": 42
+  },
+  "cross_validation": {
+    "type": "kfold",
+    "n_splits": 10,
+    "scoring": "neg_mean_squared_error"
+  },
+  "task_type": "regression",
+  "output_path": "models/regression_model.joblib",
+  "run_cross_validation": true,
+  "random_state": 42
+}

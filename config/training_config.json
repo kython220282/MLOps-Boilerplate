@@ -1,0 +1,29 @@
+{
+  "data_source": {
+    "type": "file",
+    "path": "data/train.csv"
+  },
+  "target_column": "target",
+  "model": {
+    "type": "random_forest",
+    "model_type": "classifier",
+    "n_estimators": 100,
+    "max_depth": null,
+    "random_state": 42
+  },
+  "data_processing": {
+    "missing_value_strategy": "mean",
+    "scaling_method": "standard",
+    "test_size": 0.2,
+    "random_state": 42
+  },
+  "cross_validation": {
+    "type": "kfold",
+    "n_splits": 5,
+    "scoring": "accuracy"
+  },
+  "task_type": "classification",
+  "output_path": "models/model.joblib",
+  "run_cross_validation": true,
+  "random_state": 42
+}
