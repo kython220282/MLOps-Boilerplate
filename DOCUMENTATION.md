@@ -52,8 +52,8 @@ ml-create-project --help
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ml-service-framework.git
-cd ml-service-framework
+git clone https://github.com/kython220282/MLOps-Boilerplate.git
+cd MLOps-Boilerplate
 
 # Create virtual environment
 python -m venv venv
@@ -72,7 +72,7 @@ pip install -e .
 
 ```bash
 # Pull the Docker image
-docker pull yourusername/ml-service-framework:latest
+docker pull kython220282/ml-service-framework:latest
 
 # Run container
 docker run -it -p 8000:8000 ml-service-framework

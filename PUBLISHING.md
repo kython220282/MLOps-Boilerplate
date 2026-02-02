@@ -1,11 +1,14 @@
-# Publishing ML Service Framework to PyPI
+# Publishing MLOps-Boilerplate to PyPI
 
-This guide explains how to publish the ML Service Framework to PyPI so others can install it with `pip install ml-service-framework`.
+This guide explains how to publish MLOps-Boilerplate to PyPI so others can install it with `pip install ml-service-framework`.
+
+**Note:** The GitHub repository is named **MLOps-Boilerplate**, but the PyPI package is published as **ml-service-framework**.
 
 ## Prerequisites
 
 1. **PyPI Account**
-   - Create account at https://pypi.org/account/register/
+   - PyPI ID: **Kython220282**
+   - Create account at https://pypi.org/account/register/ (if you don't have one)
    - (Optional) Create TestPyPI account at https://test.pypi.org/account/register/
 
 2. **Install Build Tools**

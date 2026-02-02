@@ -8,6 +8,8 @@ Get started with ML Service Framework in 5 minutes!
 pip install ml-service-framework
 ```
 
+**Note:** The GitHub repo is MLOps-Boilerplate, but install via `ml-service-framework`.
+
 ## Create Your First Project
 
 ```bash
@@ -136,6 +138,6 @@ tracker.log_training_run(config, metrics, model)
 
 ## Need Help?
 
-- 💬 [Open an issue](https://github.com/yourusername/ml-service-framework/issues)
+- 💬 [Open an issue](https://github.com/kython220282/MLOps-Boilerplate/issues)
 - 📖 [Read the docs](README.md)
 - 🤝 [Contributing guide](CONTRIBUTING.md)

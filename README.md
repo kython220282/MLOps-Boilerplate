@@ -5,6 +5,7 @@ A production-ready machine learning framework for building, training, deploying,
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![PyPI](https://img.shields.io/badge/PyPI-ml--service--framework-blue.svg)](https://pypi.org/project/ml-service-framework/)
 
 ## 🚀 Features
 
@@ -37,8 +38,10 @@ A production-ready machine learning framework for building, training, deploying,
 ### Install from PyPI (Recommended)
 
 ```bash
-pip install mlops-boilerplate
+pip install ml-service-framework
 ```
+
+**Note:** The GitHub repository is named MLOps-Boilerplate, but the PyPI package is `ml-service-framework`.
 
 ### Create a New Project
 
@@ -81,8 +84,8 @@ pip install -e .
 ### Install with Docker
 
 ```bash
-docker build -t mlops-boilerplate .
-docker run -p 8000:8000 mlops-boilerplate
+docker build -t ml-service-framework .
+docker run -p 8000:8000 ml-service-framework
 ```
 
 ## 🏃 Quick Start
@@ -341,7 +344,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## �‍💻 Credits
 
-**Created by:** Karan  
+**Created by:** Karan Raj Sharma
 **GitHub:** [@kython220282](https://github.com/kython220282)  
 **Repository:** [MLOps-Boilerplate](https://github.com/kython220282/MLOps-Boilerplate)
 
@@ -351,7 +354,7 @@ If you use this framework in your projects, please consider:
 - ⭐ **Star this repository** on GitHub
 - 📝 **Add credits** in your project documentation:
   ```markdown
-  Built with [MLOps-Boilerplate](https://github.com/kython220282/MLOps-Boilerplate) by Karan
+  Built with [MLOps-Boilerplate](https://github.com/kython220282/MLOps-Boilerplate) by Karan Raj Sharma
   ```
 - 🔗 **Link back** to this repository
 - 💬 **Share your project** - Open an issue to showcase what you've built!

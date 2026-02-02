@@ -36,5 +36,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added security scanning in CI/CD pipeline
 - Input validation with Pydantic
 
-[Unreleased]: https://github.com/yourusername/ml-service-framework/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/yourusername/ml-service-framework/releases/tag/v0.1.0
+[Unreleased]: https://github.com/kython220282/MLOps-Boilerplate/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/kython220282/MLOps-Boilerplate/releases/tag/v0.1.0

@@ -15,12 +15,12 @@ if (this_directory / "requirements.txt").exists():
 setup(
     name="ml-service-framework",
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
-    description="A production-ready machine learning framework for building ML services",
+    author="Karan",
+    author_email="kython220282@gmail.com",
+    description="A production-ready MLOps framework for building, training, deploying, and monitoring ML models at scale",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/ml-service-framework",
+    url="https://github.com/kython220282/MLOps-Boilerplate",
     packages=find_packages(exclude=["tests", "tests.*", "docs"]),
     classifiers=[
         "Development Status :: 3 - Alpha",

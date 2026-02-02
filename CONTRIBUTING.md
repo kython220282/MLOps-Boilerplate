@@ -6,7 +6,7 @@ Thank you for your interest in contributing! This document provides guidelines a
 
 ### Reporting Bugs
 
-1. Check if the bug has already been reported in [Issues](https://github.com/yourusername/ml-service-framework/issues)
+1. Check if the bug has already been reported in [Issues](https://github.com/kython220282/MLOps-Boilerplate/issues)
 2. If not, create a new issue with:
    - Clear, descriptive title
    - Steps to reproduce
